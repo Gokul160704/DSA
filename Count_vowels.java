@@ -1,6 +1,6 @@
 public class Count_vowels {
     public static void main(String[] args) {
-        String str = "Automaation";
+        String str = "Automation";
         int vowels = 0 , consonants = 0 ;
         for(char c:str.toCharArray()){
             if("aeiouAEIOU".indexOf(c)!=-1){
